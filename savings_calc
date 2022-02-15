@@ -1,0 +1,8 @@
+def calc_discount(store_price):
+    import random
+    percentage_disc = 50-random.randint(1,20)
+    otherstore_price = (store_price * percentage_disc)/100
+    return otherstore_price
+    
+calc_discount(1675)
+  
